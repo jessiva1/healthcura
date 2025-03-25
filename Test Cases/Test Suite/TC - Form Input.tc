@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - Form Input</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>90c3c259-3187-41ab-aba0-64646f2be984</testCaseGuid>
+   <variable>
+      <defaultValue>'Hongkong CURA Healthcare Center'</defaultValue>
+      <description></description>
+      <id>0fcd0c98-8b6f-4587-b361-095d853dc25d</id>
+      <masked>false</masked>
+      <name>Healthcare</name>
+   </variable>
+   <variable>
+      <defaultValue>'yes'</defaultValue>
+      <description></description>
+      <id>78493376-4fb6-421e-8bdf-544418c0813c</id>
+      <masked>false</masked>
+      <name>Checklist</name>
+   </variable>
+   <variable>
+      <defaultValue>'None'</defaultValue>
+      <description></description>
+      <id>c9a3ab9c-dd5e-4f50-9854-07b9f1b6f024</id>
+      <masked>false</masked>
+      <name>Program</name>
+   </variable>
+   <variable>
+      <defaultValue>'30/03/2025'</defaultValue>
+      <description></description>
+      <id>6a51e950-39d4-4792-8283-8a2c108b90cd</id>
+      <masked>false</masked>
+      <name>VisitDate</name>
+   </variable>
+   <variable>
+      <defaultValue>'test suite'</defaultValue>
+      <description></description>
+      <id>2290222a-1441-430d-8637-eb253de7595e</id>
+      <masked>false</masked>
+      <name>Comment</name>
+   </variable>
+</TestCaseEntity>

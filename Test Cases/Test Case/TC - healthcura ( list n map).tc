@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - healthcura ( list n map)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2e029130-f175-4da1-819f-b3bbb9a151f6</testCaseGuid>
+</TestCaseEntity>

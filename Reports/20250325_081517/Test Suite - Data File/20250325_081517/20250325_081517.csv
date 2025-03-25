@@ -1,0 +1,48 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite - Data File,Chrome 134.0.6998.118,,,25-03-2025 08:15:23,25-03-2025 08:16:12,49.097s,PASSED
+,,,,,,,
+Test Cases/Data File/TC - Cura,Chrome 134.0.6998.118,,,25-03-2025 08:15:23,25-03-2025 08:15:41,18.031s,PASSED
+"DATA BINDING - {""Comment"":""test 1"",""Program"":""Medicare"",""Username"":""John Doe"",""Checklist"":""yes"",""Healthcare"":""Tokyo CURA Healthcare Center"",""VisitDate"":""25/03/2025"",""Password"":""ThisIsNotAPassword""}",,,,,,,
+"callTestCase(findTestCase(""Data File/TC - Login - Copy""), [""Username"":Username, ""Password"":Password], STOP_ON_FAILURE)",Chrome 134.0.6998.118,,,25-03-2025 08:15:24,25-03-2025 08:15:35,11.367s,PASSED
+"click(findTestObject(""Cura/Page_CURA Healthcare Service/Page_CURA Healthcare Service/select_healthcare""))",Chrome 134.0.6998.118,,,25-03-2025 08:15:35,25-03-2025 08:15:36,0.564s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Cura/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), Healthcare, true)",Chrome 134.0.6998.118,,,25-03-2025 08:15:36,25-03-2025 08:15:37,1.088s,PASSED
+"if (Checklist == ""yes"")",Chrome 134.0.6998.118,,,25-03-2025 08:15:37,25-03-2025 08:15:37,0.470s,PASSED
+"if (Program == ""Medicaid"")",Chrome 134.0.6998.118,,,25-03-2025 08:15:37,25-03-2025 08:15:37,0.003s,PASSED
+"else if (Program == ""Medicare"")",Chrome 134.0.6998.118,,,25-03-2025 08:15:37,25-03-2025 08:15:38,0.372s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_visit_date""), VisitDate)",Chrome 134.0.6998.118,,,25-03-2025 08:15:38,25-03-2025 08:15:39,0.765s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/div_Comment""))",Chrome 134.0.6998.118,,,25-03-2025 08:15:39,25-03-2025 08:15:39,0.491s,PASSED
+"setText(findTestObject(""Object Repository/Cura/Page_CURA Healthcare Service/textarea_comment""), Comment)",Chrome 134.0.6998.118,,,25-03-2025 08:15:39,25-03-2025 08:15:40,0.575s,PASSED
+"click(findTestObject(""Object Repository/Cura/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 134.0.6998.118,,,25-03-2025 08:15:40,25-03-2025 08:15:40,0.422s,PASSED
+"click(findTestObject(""Object Repository/Cura/Page_CURA Healthcare Service/a_Go to Homepage""))",Chrome 134.0.6998.118,,,25-03-2025 08:15:40,25-03-2025 08:15:41,1.268s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 134.0.6998.118,,,25-03-2025 08:15:41,25-03-2025 08:15:41,0.015s,PASSED
+,,,,,,,
+Test Cases/Data File/TC - Cura,Chrome 134.0.6998.118,,,25-03-2025 08:15:42,25-03-2025 08:15:57,15.940s,PASSED
+"DATA BINDING - {""Comment"":""test 2"",""Program"":""Medicaid"",""Username"":""John Doe"",""Checklist"":""no"",""Healthcare"":""Hongkong CURA Healthcare Center"",""VisitDate"":""27/03/2025"",""Password"":""ThisIsNotAPassword""}",,,,,,,
+"callTestCase(findTestCase(""Data File/TC - Login - Copy""), [""Username"":Username, ""Password"":Password], STOP_ON_FAILURE)",Chrome 134.0.6998.118,,,25-03-2025 08:15:42,25-03-2025 08:15:51,9.681s,PASSED
+"click(findTestObject(""Cura/Page_CURA Healthcare Service/Page_CURA Healthcare Service/select_healthcare""))",Chrome 134.0.6998.118,,,25-03-2025 08:15:51,25-03-2025 08:15:52,0.554s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Cura/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), Healthcare, true)",Chrome 134.0.6998.118,,,25-03-2025 08:15:52,25-03-2025 08:15:53,0.986s,PASSED
+"if (Checklist == ""yes"")",Chrome 134.0.6998.118,,,25-03-2025 08:15:53,25-03-2025 08:15:53,0.002s,PASSED
+"else if (Checklist == ""no"")",Chrome 134.0.6998.118,,,25-03-2025 08:15:53,25-03-2025 08:15:53,0.325s,PASSED
+"if (Program == ""Medicaid"")",Chrome 134.0.6998.118,,,25-03-2025 08:15:53,25-03-2025 08:15:54,0.388s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_visit_date""), VisitDate)",Chrome 134.0.6998.118,,,25-03-2025 08:15:54,25-03-2025 08:15:55,1.058s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/div_Comment""))",Chrome 134.0.6998.118,,,25-03-2025 08:15:55,25-03-2025 08:15:55,0.614s,PASSED
+"setText(findTestObject(""Object Repository/Cura/Page_CURA Healthcare Service/textarea_comment""), Comment)",Chrome 134.0.6998.118,,,25-03-2025 08:15:55,25-03-2025 08:15:56,0.645s,PASSED
+"click(findTestObject(""Object Repository/Cura/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 134.0.6998.118,,,25-03-2025 08:15:56,25-03-2025 08:15:57,0.699s,PASSED
+"click(findTestObject(""Object Repository/Cura/Page_CURA Healthcare Service/a_Go to Homepage""))",Chrome 134.0.6998.118,,,25-03-2025 08:15:57,25-03-2025 08:15:57,0.904s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 134.0.6998.118,,,25-03-2025 08:15:57,25-03-2025 08:15:57,0.001s,PASSED
+,,,,,,,
+Test Cases/Data File/TC - Cura,Chrome 134.0.6998.118,,,25-03-2025 08:15:58,25-03-2025 08:16:12,14.131s,PASSED
+"DATA BINDING - {""Comment"":""test 3"",""Program"":""None"",""Username"":""John Doe"",""Checklist"":""yes"",""Healthcare"":""Seoul CURA Healthcare Center"",""VisitDate"":""30/03/2025"",""Password"":""ThisIsNotAPassword""}",,,,,,,
+"callTestCase(findTestCase(""Data File/TC - Login - Copy""), [""Username"":Username, ""Password"":Password], STOP_ON_FAILURE)",Chrome 134.0.6998.118,,,25-03-2025 08:15:58,25-03-2025 08:16:06,8.199s,PASSED
+"click(findTestObject(""Cura/Page_CURA Healthcare Service/Page_CURA Healthcare Service/select_healthcare""))",Chrome 134.0.6998.118,,,25-03-2025 08:16:06,25-03-2025 08:16:06,0.525s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Cura/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), Healthcare, true)",Chrome 134.0.6998.118,,,25-03-2025 08:16:06,25-03-2025 08:16:07,0.979s,PASSED
+"if (Checklist == ""yes"")",Chrome 134.0.6998.118,,,25-03-2025 08:16:07,25-03-2025 08:16:08,0.425s,PASSED
+"if (Program == ""Medicaid"")",Chrome 134.0.6998.118,,,25-03-2025 08:16:08,25-03-2025 08:16:08,0.005s,PASSED
+"else if (Program == ""Medicare"")",Chrome 134.0.6998.118,,,25-03-2025 08:16:08,25-03-2025 08:16:08,0.001s,PASSED
+"else if (Program == ""None"")",Chrome 134.0.6998.118,,,25-03-2025 08:16:08,25-03-2025 08:16:08,0.481s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_visit_date""), VisitDate)",Chrome 134.0.6998.118,,,25-03-2025 08:16:08,25-03-2025 08:16:09,0.713s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/div_Comment""))",Chrome 134.0.6998.118,,,25-03-2025 08:16:09,25-03-2025 08:16:10,0.562s,PASSED
+"setText(findTestObject(""Object Repository/Cura/Page_CURA Healthcare Service/textarea_comment""), Comment)",Chrome 134.0.6998.118,,,25-03-2025 08:16:10,25-03-2025 08:16:10,0.614s,PASSED
+"click(findTestObject(""Object Repository/Cura/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 134.0.6998.118,,,25-03-2025 08:16:10,25-03-2025 08:16:11,0.395s,PASSED
+"click(findTestObject(""Object Repository/Cura/Page_CURA Healthcare Service/a_Go to Homepage""))",Chrome 134.0.6998.118,,,25-03-2025 08:16:11,25-03-2025 08:16:12,1.195s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 134.0.6998.118,,,25-03-2025 08:16:12,25-03-2025 08:16:12,0.002s,PASSED
